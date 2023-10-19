@@ -1,0 +1,284 @@
+/*corpo*/
+body{
+    font-family: Nunito, sans-serif ;
+    color: #1c1c1c;
+    background-color: #8880a0
+}
+h1 h2 h3{
+     font-family: Asap, sans-serif ;
+     color: #ffffff;
+}
+/*navegação*/
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8880a0;
+}
+nav > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail, serif;
+}
+
+nav ul {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a :hover{
+      color: #5972bd;
+      border-bottom: 1px solid #292f41;
+}
+/*cabeçalho*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    background-image: url(../img/pincel3.jpg); 
+    max-width: 2000px;
+    height: 500px;
+    opacity: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+
+}
+header a {
+    padding: 10px 30px;
+    background-color: #292f41;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .9rem;
+    border-radius: 3px;
+}
+header h1{
+    color: #ffffff;
+    background-color: #6d6588;
+    opacity: 70%;
+    text-shadow: 2px 4px blur color #292f41;
+}
+header p{
+    margin-bottom: 2rem;
+    font-size: 20px;
+    background-color: #6d6588;
+    opacity: 70%;
+}
+/*sobre*/
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px 20px;
+    background:#322c44;
+    color: #ffffff;
+}
+
+#sobre h2 {
+color: #ffffff;
+}
+/*botao*/
+
+.botao{
+    padding: 10PX 30PX;
+    background:#6d6588;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .9em;
+    border-radius: 3px;
+}
+.botao a:hover, a:active {
+    background-color: #290c4b;
+  } 
+/*Inicio da parte serviços*/
+#servi h2 a{ /*esse servi é pra deixar p titulo separado*/
+        text-decoration: none;
+        color:#322c44;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.servi h2 a:hover{
+    color: #6d6588;
+    }
+
+#serviços{
+display: flex;
+flex-direction: column;
+align-items: auto;
+padding: 30px;
+}
+
+#serviços div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#serviços div img{
+max-width: 200px;
+height: 100px;
+}
+
+#serviços{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 30px;
+}
+
+#serviços div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 30px;
+   flex-grow: 1;
+   flex-basis: 150px;
+   padding: 0 10px;
+}
+#serviços p{
+    font-size: 15px;
+}
+#serviços h3{
+    font-size: 20px;
+    color:#322c44;
+}
+
+/*fotos*/
+.text_fotos{
+        text-decoration: none;
+        color:#322c44;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+}
+.gallery-items{
+    width: 440px;
+    height: 340px;
+    border: 10px solid #9992ad;
+    box-shadow:5px 5px 5px #322c44;
+    flex-grow: 1;
+    transition: transform .5s linear;
+}
+
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-items:hover{
+    transform: scale(1.1);
+ }
+.titulo{
+    text-decoration: none;
+        color:#322c44;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ }
+.paragrafo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font: bold 30px #000;
+ }
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: auto;
+    padding: 30px;
+    }
+    
+    .contato div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contato div img{
+    max-width: 200px;
+    height: 100px;
+    }
+    
+    .contato{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       padding: 30px;
+    }
+    
+    .contato div{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       margin-top: 30px;
+       flex-grow: 1;
+       flex-basis: 150px;
+       padding: 0 10px;
+    }
+    #contato p{
+        font-size: 15px;
+    }
+   
+          /*Rodapé */
+
+          footer {
+            align-items: center;
+          }
+
+          footer a:link, a:visited {
+            background-color: #6d6588;
+            color:#ffffff;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+          }
+          footer a:hover, a:active {
+            background-color: #290c4b;
+          }
+          
+          footer {
+            line-height: 20px;
+            height: 10px;
+            text-align: center;
+            color: #322c44;
+          }
+
+          /*fim do CSS*/
